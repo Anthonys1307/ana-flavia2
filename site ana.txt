@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Flávia Fotografia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .photo {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+        .photo img {
+            width: 100%;
+            height: auto;
+        }
+        .photo-info {
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ana Flávia Fotografia</h1>
+    <div class="gallery">
+        <!-- Exemplo de uma foto -->
+        <div class="photo">
+            <img src="foto1.jpg" alt="Modelo 1">
+            <div class="photo-info">
+                <p><strong>Modelo:</strong> Maria Silva</p>
+                <p><strong>Local:</strong> Parque Nacional</p>
+            </div>
+        </div>
+        <!-- Exemplo de outra foto -->
+        <div class="photo">
+            <img src="foto2.jpg" alt="Modelo 2">
+            <div class="photo-info">
+                <p><strong>Modelo:</strong> Carla Souza</p>
+                <p><strong>Local:</strong> Praia do Leste</p>
+            </div>
+        </div>
+        <!-- Adicione mais fotos aqui -->
+    </div>
+</body>
+</html>
