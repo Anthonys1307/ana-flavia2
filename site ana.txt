@@ -49,7 +49,7 @@
     <div class="gallery">
         <!-- Exemplo de uma foto -->
         <div class="photo">
-            <img src="foto1.jpg" alt="Modelo 1">
+            <img src="logotipo.jpg" alt="Modelo 1">
             <div class="photo-info">
                 <p><strong>Modelo:</strong> Maria Silva</p>
                 <p><strong>Local:</strong> Parque Nacional</p>
@@ -57,7 +57,7 @@
         </div>
         <!-- Exemplo de outra foto -->
         <div class="photo">
-            <img src="foto2.jpg" alt="Modelo 2">
+            <img src="logotipo.jpg" alt="Modelo 2">
             <div class="photo-info">
                 <p><strong>Modelo:</strong> Carla Souza</p>
                 <p><strong>Local:</strong> Praia do Leste</p>
